@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaik Sameer Pasha | Python Full Stack Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      scroll-behavior: smooth;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      color: #00ffd5;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+    nav a:hover {
+      color: #00ffd5;
+    }
+    section {
+      padding: 5rem 3rem;
+      animation: fadeUp 1s ease-in-out;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .download-btn {
+      margin-top: 2rem;
+      padding: 0.8rem 2rem;
+      background-color: #00ffd5;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    .download-btn:hover {
+      background-color: #00bfa0;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .skill-card {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 1.5rem;
+      width: 200px;
+      text-align: center;
+      transition: transform 0.4s ease, background 0.4s ease;
+      animation: zoomIn 0.8s ease-in-out;
+    }
+    .skill-card:hover {
+      transform: scale(1.05);
+      background-color: rgba(0, 255, 213, 0.2);
+    }
+    .skill-card img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: 0.5rem;
+    }
+    .footer {
+      background-color: #111;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+    .footer p {
+      color: #aaa;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes zoomIn {
+      from {transform: scale(0.8); opacity: 0;}
+      to {transform: scale(1); opacity: 1;}
+    }
+    @media (max-width: 768px) {
+      header, section {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shaik Sameer Pasha</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <section class="hero" id="about">
+    <h2>Python Full Stack Developer</h2>
+    <p>2 years of experience in IT industry as Python and Frontend Developer with deep knowledge in Machine Learning, Deep Learning, and NLP.</p>
+    <button class="download-btn" onclick="window.location.href='Shaik_Sameer_Pasha_Python_Machine_Learning_2Yrs.docx'">Download Resume</button>
+  </section>
+
+  <section id="skills">
+    <h2 style="text-align:center">Technical Skills</h2>
+    <div class="skills">
+      <div class="skill-card">
+        <img src="https://img.icons8.com/color/96/html-5.png" alt="HTML">
+        <h4>HTML</h4>
+      </div>
+      <div class="skill-card">
+        <img src="https://img.icons8.com/color/96/css3.png" alt="CSS">
+        <h4>CSS</h4>
+      </div>
+      <div class="skill-card">
+        <img src="https://img.icons8.com/color/96/javascript.png" alt="JavaScript">
+        <h4>JavaScript</h4>
+      </div>
+      <div class="skill-card">
+        <img src="https://img.icons8.com/color/96/python.png" alt="Python">
+        <h4>Python</h4>
+      </div>
+      <div class="skill-card">
+        <img src="https://img.icons8.com/color/96/bootstrap.png" alt="Bootstrap">
+        <h4>Bootstrap</h4>
+      </div>
+      <div class="skill-card">
+        <img src="https://img.icons8.com/color/96/angularjs.png" alt="Angular">
+        <h4>Angular</h4>
+      </div>
+      <div class="skill-card">
+        <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-color-tal-revivo.png" alt="Django">
+        <h4>Django</h4>
+      </div>
+      <div class="skill-card">
+        <img src="https://img.icons8.com/color/96/mysql-logo.png" alt="MySQL">
+        <h4>MySQL</h4>
+      </div>
+      <div class="skill-card">
+        <img src="https://img.icons8.com/color/96/amazon-web-services.png" alt="AWS">
+        <h4>AWS</h4>
+      </div>
+      <div class="skill-card">
+        <img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" alt="AI/ML">
+        <h4>ML / DL / NLP</h4>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 style="text-align:center">Contact Me</h2>
+    <p style="text-align:center">Email: shaiksameer@example.com | Phone: +91-XXXXXXXXXX</p>
+    <p style="text-align:center">LinkedIn: <a style="color:#00ffd5" href="#">linkedin.com/in/shaiksameerpasha</a></p>
+  </section>
+
+  <div class="footer">
+    <p>&copy; 2025 Shaik Sameer Pasha. All Rights Reserved.</p>
+  </div>
+</body>
+</html>
